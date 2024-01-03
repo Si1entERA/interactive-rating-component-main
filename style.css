@@ -1,0 +1,175 @@
+*{
+  font-family: 'Overpass', sans-serif;
+}
+
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+}
+
+.container{
+  /* border: 2px solid red; */
+  border-radius: 25px;
+  width: 380px;
+  padding-top: 30px;
+  padding-left: 30px;
+  background-image: linear-gradient(to bottom, #252d37, #20272f, #1c2027, #171a1f, #121417);
+}
+
+.star-bubble{
+  /* border: 1px solid orchid; */
+  border-radius: 50%;
+  background-color: rgb(37,45,55);
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.star-icon{
+  margin-top: 9px;
+}
+
+.heading{
+  font-size: 1.5em;
+  color: rgb(255,255,255);
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+}
+
+.description{
+  color: rgb(149,158,172);
+  font-weight: 400;
+}
+
+.num-btn{
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+}
+
+.btn{
+  border-radius: 50%;
+  background-color: rgb(37,45,55);
+  height: 40px;
+  width: 55px;
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  color: rgb(149,158,172);
+  font-size: 1.2rem;
+  margin-top: 15px;
+  padding-top: 18px;
+  transition: .5s ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(149,158,172);
+  color: white;
+  transition: .2s ease-in;
+}
+
+.add{
+  background-color: rgb(251,116,19);
+  color: white;
+  transition: 0s;
+}
+
+.btn-submit{
+  /* border: 1px solid pink; */
+  border-radius: 20px;
+  color: white;
+  font-weight: 400;
+  background-color: rgb(251,116,19);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 340px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit:active{
+  background-color: white;
+  color: rgb(251,116,19);
+}
+
+/* THANKS CONTAINER */
+.thanks-container, .show-thanks{
+  /* border: 1px solid red; */
+  background-image: linear-gradient(to bottom, #252d37, #20272f, #1c2027, #171a1f, #121417);
+  border-radius: 25px;
+  width: 360px;
+  height: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  
+  display: none;
+}
+
+.thanks-icon{
+  margin-top: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.rating{
+  border: 1px solid transparent;
+  background-color: rgb(37,45,55);
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  color: rgb(251,116,19);
+}
+
+.rating, p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.thanks-title{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.thanks-text{
+  color: rgb(149,158,172);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.return-btn{
+  /* border: 1px solid green; */
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(251,116,19);
+}
